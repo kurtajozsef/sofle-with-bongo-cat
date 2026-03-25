@@ -1,10 +1,12 @@
 # Sofle with Bongo Cat (Vial)
 
-This repository holds a **Sofle** keyboard layout based on the **Vial** keymap from the [vial-qmk](https://github.com/vial-kb/vial-qmk) project. The main change is the **OLED**: Bongo Cat is shown on the primary display instead of the stock Vial OLED content.
+**Sofle rev1** firmware with **Vial**, starting from the Sofle Vial keymap in [vial-qmk](https://github.com/vial-kb/vial-qmk).
+
+**OLED (USB side of the split):** The cat **taps when you press a key** and is **idle** when you are not typing. It also shows the **layer** you are on and your **WPM**.
 
 ## What’s inside
 
-- `sofle/rev1/keymaps/vial/` — Vial keymap with the Bongo Cat OLED implementation (see `oled.c` and related config).
+- `sofle/rev1/keymaps/vial/` — that Vial keymap, including the cat / layer / WPM OLED (`oled.c` and related files).
 
 Upstream Sofle documentation and hardware notes still apply; see [`sofle/readme.md`](sofle/readme.md) for keyboard revision details and general build references.
 
