@@ -4,6 +4,8 @@
 
 **OLED (USB side of the split):** The cat **taps when you press a key** and is **idle** when you are not typing. It also shows the **layer** you are on and your **WPM**.
 
+![Sofle OLED: layer (L:0), WPM, and Bongo Cat](./images/oled-bongo-cat.png)
+
 ## What’s inside
 
 - `sofle/rev1/keymaps/vial/` — that Vial keymap, including the cat / layer / WPM OLED (`oled.c` and related files).
